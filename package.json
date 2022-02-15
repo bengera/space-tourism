@@ -1,0 +1,25 @@
+{
+  "name": "space-tourism",
+  "version": "1.0.0",
+  "description": "![Design preview for the Space tourism website coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengera/space-tourism.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengera/space-tourism/issues"
+  },
+  "homepage": "https://github.com/bengera/space-tourism#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

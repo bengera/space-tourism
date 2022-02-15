@@ -1,0 +1,78 @@
+// COLOR VARIABLES
+$color-dark: #0b0d17;
+$color-light-grey: #d0d6f9;
+$color-white: #FFF;
+
+
+@mixin transition-basic {
+  transition: all 0.3s;
+
+}
+
+// FONT VARIABLES
+$font-primary: 'Barlow Condensed', sans-serif;
+$font-secondary: 'Bellefair', serif; 
+ 
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px
+$bp-small: 37.5em; // 600px
+
+$bp-height-low: 40.188em; // 643px
+
+// Magins
+$margin-small: 2rem;
+$margin-medium: 4rem;
+$margin-large: 6rem;
+$margin-largest: 8rem;
+
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  @media only screen and (max-width: $bp-large) {
+    // font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    // font-size: 40%;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    // font-size: 35%;
+  }
+
+ 
+}
+
+body {
+    font-family: $font-primary;
+    
+
+}
+
+main {
+    
+    margin: 0 auto;
+    
+
+        
+}
+
+h1 {
+    color: red;
+}
