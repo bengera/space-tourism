@@ -322,4 +322,57 @@ main {
   margin: 0 auto; }
 
 h1 {
-  color: red; }
+  font-size: 80px;
+  color: #FFF;
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0; }
+
+.container {
+  height: 100vh;
+  background-image: url("/starter-code/assets/home/background-home-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  margin: 2rem 1rem 0 1rem;
+  text-align: center;
+  gap: 1rem; }
+  .intro__subtext-up, .intro__subtext-down {
+    color: #d0d6f9; }
+  .intro__subtext-up {
+    text-transform: uppercase;
+    letter-spacing: 2.7px; }
+  .intro__subtext-down {
+    line-height: 30px;
+    font-size: 18px; }
+
+.header-top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1rem; }
+
+.nav-toggle {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer; }
+
+.cta-col {
+  text-align: center;
+  margin-top: 5rem; }
+
+.btn-explore {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  font-size: 25px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 0; }

@@ -74,5 +74,78 @@ main {
 }
 
 h1 {
-    color: red;
+  font-size: 80px;
+  color: $color-white;
+  font-family: $font-secondary;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
 }
+
+
+
+.container {
+  height: 100vh;
+  background-image: url('/starter-code/assets/home/background-home-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro {
+  // border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  margin: 2rem 1rem 0 1rem;
+  text-align: center;
+  gap: 1rem;
+
+  &__subtext-up,&__subtext-down {
+      color: $color-light-grey;
+  }
+
+  &__subtext-up {
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+  }
+
+  &__subtext-down {
+    line-height: 30px;
+    font-size: 18px;
+  }
+}
+
+.header-top-bar {
+  // border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  
+
+}
+
+.nav-toggle {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.cta-col {
+  // border: 2px solid red;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.btn-explore {
+  width:10rem;
+  height: 10rem;
+  border-radius: 50%;
+  font-size: 25px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 0;
+}
+
