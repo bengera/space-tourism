@@ -1,0 +1,42 @@
+.container {
+    height: 100vh;
+    background-image: url('../assets/home/background-home-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .intro {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    margin: 2rem 1rem 0 1rem;
+    text-align: center;
+    gap: 1rem;
+  
+    &__subtext-up,&__subtext-down {
+        color: $color-light-grey;
+    }
+  
+    &__subtext-up {
+      text-transform: uppercase;
+      letter-spacing: 2.7px;
+    }
+  
+    &__subtext-down {
+      line-height: 30px;
+      font-size: 18px;
+    }
+  }
+  
+  .header-top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    
+  
+  }
+  
