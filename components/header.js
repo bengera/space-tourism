@@ -9,7 +9,7 @@ class Header extends HTMLElement {
     <header>
     <div class="header-top-bar">
       
-    <img src = "../assets/shared/logo.svg" alt="logo"/>
+    <img src = "./assets/shared/logo.svg" alt="logo"/>
     <button class="nav-toggle">
   </button>
   </div>
