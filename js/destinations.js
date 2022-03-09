@@ -8,9 +8,9 @@ let elements = [];
 
 
 
-fetch("../data.json")
 
-fetch("../data.json")
+fetch("https://bengera.github.io/space-tourism/data.json")
+// fetch("../data.json")
     .then((res) => res.json())
     .then((data) => {
         for (let i = 0; i < data.destinations.length; i++) {
