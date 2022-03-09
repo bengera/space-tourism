@@ -16,6 +16,9 @@ fetch("https://bengera.github.io/space-tourism/data.json")
         for (let i = 0; i < data.destinations.length; i++) {
             elements.push(data.destinations[i]);
         }
+    }).catch(function (error) {
+        console.log('Something went wrong');
+        console.error(error);
     });
 
 links.forEach((link) => {
