@@ -29,39 +29,39 @@ links.forEach((link) => {
         console.log(e.target.innerText);
         switch (e.target.innerText) {
             case "MOON":
-              image.src = elements[0].images.webp;
-              title.innerText = elements[0].name;
-              description.innerText = elements[0].description;
-              distance.innerText = elements[0].distance;  
-              travel.innerText = elements[0].travel;
-             
-              break;
-            case "MARS":
-              image.src = elements[1].images.webp;
-              title.innerText = elements[1].name;
-              description.innerText = elements[1].description;
-              distance.innerText = elements[1].distance;  
-              travel.innerText = elements[1].travel;
+                image.src = elements[0].images.webp;
+                title.innerText = elements[0].name;
+                description.innerText = elements[0].description;
+                distance.innerText = elements[0].distance;
+                travel.innerText = elements[0].travel;
 
-             break;
-             case "EUROPA":
+                break;
+            case "MARS":
+                image.src = elements[1].images.webp;
+                title.innerText = elements[1].name;
+                description.innerText = elements[1].description;
+                distance.innerText = elements[1].distance;
+                travel.innerText = elements[1].travel;
+
+                break;
+            case "EUROPA":
                 image.src = elements[2].images.webp;
                 title.innerText = elements[2].name;
-              description.innerText = elements[2].description;
-              distance.innerText = elements[2].distance;  
-              travel.innerText = elements[2].travel;
-               break;
-               case "TITAN":
+                description.innerText = elements[2].description;
+                distance.innerText = elements[2].distance;
+                travel.innerText = elements[2].travel;
+                break;
+            case "TITAN":
                 image.src = elements[3].images.webp;
                 title.innerText = elements[3].name;
-              description.innerText = elements[3].description;
-              distance.innerText = elements[3].distance;  
-              travel.innerText = elements[3].travel;
-               break;
+                description.innerText = elements[3].description;
+                distance.innerText = elements[3].distance;
+                travel.innerText = elements[3].travel;
+                break;
 
         }
     })
-    
+
 })
 
 
