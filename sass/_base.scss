@@ -62,9 +62,14 @@ html {
 
 }
 
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   font-family: $font-primary;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   
@@ -103,6 +108,7 @@ h5 {
   font-size: 18px;
   letter-spacing: 2.7px;
 }
+
 
 // FLEX CLASSES
 .flex-col {
@@ -176,7 +182,7 @@ h5 {
     }
   }
 
-  &__paragraph {
+  &__description {
     line-height: 30px;
     font-size: 18px;
     text-align: center;
@@ -192,7 +198,7 @@ h5 {
     
   }
 
-  &__avg-dis,&__est-time {
+  &__distance,&__est-time {
     font-size: 20px;
     letter-spacing: 2.35px;
     text-transform: uppercase;
@@ -200,7 +206,7 @@ h5 {
     
   }
 
-  &__number {
+  &__number,&__number-travel {
     font-family: $font-secondary;
     text-transform: uppercase ;
     font-size: 30px;
