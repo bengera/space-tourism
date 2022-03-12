@@ -67,24 +67,3 @@ links.forEach((link) => {
 
 })
 
-
-
-
-// fetch("../data.json")
-
-// .then(function (response) {
-//     return response.json();
-
-// }).then(function (data) {
-//     console.log(data);
-//     for (let i = 0; i < data.destinations.length; i++) {
-//         destinationData.push(data.destinations[i]);
-//         console.log(destinationData);
-//         para.innerText = destinationData[0].description;
-//     }
-
-
-// }).catch(function (error) {
-//     console.log('Something went wrong');
-//     console.error(error);
-// })
