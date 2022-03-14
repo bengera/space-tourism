@@ -353,6 +353,11 @@ h5 {
   justify-content: center;
   align-items: center; }
 
+.flex-col-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -369,20 +374,22 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: 100%; }
 
 .crew {
   color: #d0d6f9;
   padding: 2rem;
-  gap: 1rem; }
+  gap: 1rem;
+  height: 100vh; }
   .crew__img-container {
     text-align: center;
     border-bottom: 0.5px solid rgba(208, 214, 249, 0.1);
-    width: 100%; }
+    min-width: 50%; }
   .crew__photo {
     max-width: 60%;
     margin: 1rem 0;
-    margin-bottom: -4px; }
+    margin-bottom: -4px;
+    border: 2px solid red; }
   .crew__name {
     font-size: 4.5vw;
     text-transform: uppercase;
