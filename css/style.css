@@ -380,15 +380,14 @@ h5 {
     border-bottom: 0.5px solid rgba(208, 214, 249, 0.1);
     width: 100%; }
   .crew__photo {
-    width: 60%;
+    max-width: 60%;
     margin: 1rem 0;
-    margin-bottom: -4px;
-    padding-left: 3rem; }
+    margin-bottom: -4px; }
   .crew__name {
     font-size: 4.5vw;
     text-transform: uppercase;
     margin-bottom: 10px; }
-  .crew__title {
+  .crew__role {
     font-size: 3.5vw;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -410,6 +409,8 @@ h5 {
     cursor: pointer; }
     .crew .dot:hover {
       background-color: #d0d6f9; }
+  .crew .dot.active {
+    background-color: #FFF; }
   .crew .crew-container {
     text-align: center;
     margin-top: 1rem; }

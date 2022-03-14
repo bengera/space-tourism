@@ -8,7 +8,3 @@ hamMenu.addEventListener('click',() => {
     
     
 });
-
-
-
-
