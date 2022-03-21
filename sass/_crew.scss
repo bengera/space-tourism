@@ -3,14 +3,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // height: 100vh;
+  height: 100vh;
 
 }
 
 .section-crew {
   color: #d0d6f9;
   border: 2px solid red;
-  height: 100vh;
+  // height: 100vh;
 }
 
 .title {
@@ -40,9 +40,18 @@
     color: #979797;
   }
 
-  &__name {}
+  &__name {
+    font-size: 4.5vw;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+          // font-size: clamp(40px, 8vw, 90px);
+  }
 
-  &__bio {}
+  &__bio {
+    line-height: 25px;
+    padding: 1rem;
+    font-size: 18px;
+  }
 
 }
 
@@ -52,6 +61,7 @@
 .dots {
   gap: 1rem;
   margin-top: 1rem;
+  margin-bottom: 1.4rem;
 }
 
 .dot {

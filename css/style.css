@@ -505,12 +505,12 @@ h5 {
   background-image: url("../assets/crew/background-crew-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  height: 100vh; }
 
 .section-crew {
   color: #d0d6f9;
-  border: 2px solid red;
-  height: 100vh; }
+  border: 2px solid red; }
 
 .title {
   text-align: center;
@@ -530,10 +530,19 @@ h5 {
     margin-bottom: 10px;
     font-family: "Bellefair", serif;
     color: #979797; }
+  .crew__name {
+    font-size: 4.5vw;
+    text-transform: uppercase;
+    margin-bottom: 10px; }
+  .crew__bio {
+    line-height: 25px;
+    padding: 1rem;
+    font-size: 18px; }
 
 .dots {
   gap: 1rem;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  margin-bottom: 1.4rem; }
 
 .dot {
   height: 10px;
