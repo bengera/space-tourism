@@ -525,7 +525,7 @@ h5 {
   .crew__photo {
     margin: 1rem 0;
     margin-bottom: -4px;
-    height: 480px;
+    height: 380px;
     object-fit: cover; }
   .crew__name {
     font-size: 4.5vw;
