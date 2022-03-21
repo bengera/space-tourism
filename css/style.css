@@ -501,12 +501,11 @@ h5 {
     color: #FFF;
     margin-bottom: 0.2rem; }
 
-.crew-container {
+.crew-body {
   background-image: url("../assets/crew/background-crew-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 100vh; }
+  background-position: center; }
 
 .section-crew {
   color: #d0d6f9;
