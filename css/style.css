@@ -506,7 +506,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh; }
+  height: calc(100vh + 10vh); }
 
 .section-crew {
   color: #d0d6f9; }
