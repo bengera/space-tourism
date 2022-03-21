@@ -458,7 +458,8 @@ h5 {
   background-image: url("../assets/destination/background-destination-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  min-height: 100vh; }
 
 .destination {
   color: #d0d6f9;
