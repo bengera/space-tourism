@@ -501,15 +501,15 @@ h5 {
     color: #FFF;
     margin-bottom: 0.2rem; }
 
-.crew-body {
+.crew-container {
   background-image: url("../assets/crew/background-crew-mobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  height: 100vh; }
 
 .section-crew {
-  color: #d0d6f9;
-  border: 2px solid red; }
+  color: #d0d6f9; }
 
 .title {
   text-align: center;
@@ -535,8 +535,10 @@ h5 {
     margin-bottom: 10px; }
   .crew__bio {
     line-height: 25px;
-    padding: 1rem;
-    font-size: 18px; }
+    font-size: 18px;
+    width: 85%;
+    text-align: center;
+    padding: 1rem; }
 
 .dots {
   gap: 1rem;

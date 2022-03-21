@@ -1,22 +1,19 @@
-.crew-body {
+
+
+.crew-container {
   background-image: url('../assets/crew/background-crew-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 100vh;
+  
+  
+
 }
-
-// .crew-container {
-//   background-image: url('../assets/crew/background-crew-mobile.jpg');
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   background-position: center;
-//   // height: 100vh;
-
-// }
 
 .section-crew {
   color: #d0d6f9;
-  border: 2px solid red;
+  // border: 2px solid red;
   // height: 100vh;
 }
 
@@ -30,6 +27,7 @@
 .crew {
   height: 100%;
   border: 2px solid lime;
+  
 
   &__photo {
     text-align: center;
@@ -56,8 +54,11 @@
 
   &__bio {
     line-height: 25px;
-    padding: 1rem;
+    
     font-size: 18px;
+    width: 85%;
+    text-align: center;
+    padding: 1rem;
   }
 
 }
