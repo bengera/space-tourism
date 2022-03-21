@@ -506,7 +506,7 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: calc(100vh + 10vh); }
+  min-height: 100vh; }
 
 .section-crew {
   color: #d0d6f9; }
@@ -522,7 +522,7 @@ h5 {
     text-align: center;
     margin: 2rem 0;
     border-bottom: 0.5px solid rgba(208, 214, 249, 0.1);
-    height: 380px; }
+    height: 280px; }
   .crew__role {
     font-size: 3.5vw;
     text-transform: uppercase;
