@@ -517,8 +517,7 @@ h5 {
   margin-top: 2rem; }
 
 .crew {
-  height: 100%;
-  border: 2px solid lime; }
+  height: 100%; }
   .crew__photo {
     text-align: center;
     margin: 2rem 0;
@@ -561,3 +560,65 @@ h5 {
 
 .img-container {
   text-align: center; }
+
+.numbers {
+  display: flex;
+  gap: 10px; }
+
+.btn-number {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d0d6f9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+
+.btn-number {
+  color: #fff; }
+
+.btn-number.active {
+  background-color: #fff;
+  color: #0b0d17; }
+
+.container-technology {
+  background-image: url("../assets/technology/background-technology-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; }
+
+.technology-photo {
+  width: 100%;
+  margin: 1rem 0 2rem; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem; }
+
+.tech-title {
+  font-size: 15px;
+  letter-spacing: 2.35px;
+  text-transform: uppercase;
+  color: #D0D6F9; }
+
+.description-tech {
+  line-height: 25px;
+  font-size: 18px;
+  width: 85%;
+  text-align: center;
+  padding: 0 1rem;
+  color: #D0D6F9; }
+
+.tech-header {
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
+
+.tech-container {
+  margin-top: 1rem;
+  gap: 1rem; }
