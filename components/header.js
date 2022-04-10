@@ -14,15 +14,15 @@ class Header extends HTMLElement {
   </button>
   </div>
     <nav class="navigation-mobile">
-      <ul class="list">
-        <li class="list__item"><span style="font-weight:bold">00</span> Home</li>
-        <li class="list__item"><span style="font-weight:bold">01</span> Destination</li>
-        <li class="list__item"><span style="font-weight:bold">02</span> Crew</li>
-        <li class="list__item"><span style="font-weight:bold">03</span> Technology</li>
-      </ul>
+    <ul class="list">
+    <li class="list__item"><span style="font-weight:bold">00</span> <a class="mob-nav" href="index.html">Home</a></li>
+    <li class="list__item"><span style="font-weight:bold">01</span> <a class="mob-nav" href="destination-moon.html">Destination</a></li>
+    <li class="list__item"><span style="font-weight:bold">02</span> <a class="mob-nav" href="crew-commander.html">Crew</a></li>
+    <li class="list__item"><span style="font-weight:bold">03</span> <a class="mob-nav" href="technology-vehicle.html">Technology</a></li>
+  </ul>
     </nav>
   </header>
-    `;
+    `
 
   
   }

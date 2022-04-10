@@ -347,6 +347,10 @@ h5 {
   font-size: 18px;
   letter-spacing: 2.7px; }
 
+.mob-nav {
+  color: #fff;
+  text-decoration: none; }
+
 .flex-col {
   display: flex;
   flex-direction: column;
@@ -563,7 +567,7 @@ h5 {
 
 .numbers {
   display: flex;
-  gap: 10px; }
+  gap: 20px; }
 
 .btn-number {
   width: 50px;
