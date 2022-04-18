@@ -1,12 +1,13 @@
-.numbers {
+.buttons {
     display: flex;
     gap: 20px;
 }
 
-.btn-number {
+.num {
     width: 50px;
     height: 50px;
     border: 1px solid #d0d6f9;
+    color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -15,11 +16,7 @@
     
 }
 
-.btn-number {
-    color: #fff;
-}
-
-.btn-number.active {
+.num.active {
     background-color: #fff;
     color: $color-dark;
 }
@@ -33,7 +30,7 @@
    
   }
   
-  .technology-photo {
+  .tech-image {
     width: 100%;
     margin: 1rem 0 2rem;
   }
@@ -53,7 +50,7 @@
     color: $color-purple;
   }
 
-  .description-tech {
+  .tech-description {
     line-height: 25px;
     font-size: 18px;
     width: 85%;

@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="components/header.js" type="text/javascript" defer></script>
+  <script defer src="js/technology.js"></script>
   <script defer src="js/main.js"></script>
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
 
   <title>Frontend Mentor | Space tourism website</title>
 </head>
@@ -23,12 +25,12 @@
     <header-component></header-component>
     <div class="content">
       <h5><span style="font-weight:bold; color:#d0d6f9">03 </span>Space launch 101</h5>
-      <img class="technology-photo" src="assets/technology/image-launch-vehicle-landscape.jpg" alt="launch-vehicle">
+      <img class="tech-image" src="assets/technology/image-launch-vehicle-landscape.jpg" alt="launch-vehicle">
 
-      <div class="numbers">
-        <div class="btn-number active">1</div>
-        <div class="btn-number">2</div>
-        <div class="btn-number">3</div>
+      <div class="buttons">
+        <div class="num active">1</div>
+        <div class="num">2</div>
+        <div class="num">3</div>
       </div>
       
       <div class="tech-container flex-col-2">
@@ -36,7 +38,7 @@
         The terminology...
       </p>
       <h2 class="tech-header">Launch vehicle</h2>
-      <p class="description-tech">
+      <p class="tech-description">
         A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
         payload from Earth's surface to space, usually to Earth orbit or beyond. Our
         WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,

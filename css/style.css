@@ -565,24 +565,22 @@ h5 {
 .img-container {
   text-align: center; }
 
-.numbers {
+.buttons {
   display: flex;
   gap: 20px; }
 
-.btn-number {
+.num {
   width: 50px;
   height: 50px;
   border: 1px solid #d0d6f9;
+  color: #fff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer; }
 
-.btn-number {
-  color: #fff; }
-
-.btn-number.active {
+.num.active {
   background-color: #fff;
   color: #0b0d17; }
 
@@ -593,7 +591,7 @@ h5 {
   background-position: center;
   min-height: 100vh; }
 
-.technology-photo {
+.tech-image {
   width: 100%;
   margin: 1rem 0 2rem; }
 
@@ -610,7 +608,7 @@ h5 {
   text-transform: uppercase;
   color: #D0D6F9; }
 
-.description-tech {
+.tech-description {
   line-height: 25px;
   font-size: 18px;
   width: 85%;
