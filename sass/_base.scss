@@ -17,11 +17,14 @@ $font-secondary: 'Bellefair',
 serif;
 
 
+// BREAKPOINTS
+$bp-tablet: 50em;
+
 // RESPONSIVE BREAKPOINTS 
-$bp-largest: 75em; // 1200px
-$bp-large: 62.5em; // 1000px
-$bp-medium: 50em; // 800px
-$bp-small: 37.5em; // 600px
+// $bp-largest: 75em; // 1200px
+// $bp-large: 62.5em; // 1000px
+// $bp-medium: 50em; // 800px
+// $bp-small: 37.5em; // 600px
 
 $bp-height-low: 40.188em; // 643px
 
@@ -48,17 +51,6 @@ html {
   overflow-x: hidden;
   height: 100%;
 
-  @media only screen and (max-width: $bp-large) {
-    // font-size: 50%;
-  }
-
-  @media only screen and (max-width: $bp-medium) {
-    // font-size: 40%;
-  }
-
-  @media only screen and (max-width: $bp-small) {
-    // font-size: 35%;
-  }
 
 
 }
@@ -97,7 +89,7 @@ h5 {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: clamp(80px, 20vw, 140px);
 
 }
 
