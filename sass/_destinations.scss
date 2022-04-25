@@ -4,6 +4,10 @@
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+
+  @media only screen and (min-width: $bp-tablet) {
+    background-image: url("../assets/destination/background-destination-tablet.jpg");
+  }
 }
 
 .destination {

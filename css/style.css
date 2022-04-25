@@ -514,6 +514,9 @@ h5 {
   background-size: cover;
   background-position: center;
   min-height: 100vh; }
+  @media only screen and (min-width: 50em) {
+    .container-destinations {
+      background-image: url("../assets/destination/background-destination-tablet.jpg"); } }
 
 .destination {
   color: #d0d6f9;
