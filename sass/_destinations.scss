@@ -28,6 +28,10 @@
     list-style: none;
     margin-bottom: 2rem;
 
+    @media only screen and (min-width: $bp-tablet) {
+      font-size: 20px;
+    }
+
   }
 
   &__item {
@@ -48,22 +52,40 @@
     text-align: center;
     padding-bottom: 2rem;
     border-bottom: 1px solid rgba(208, 214, 249, 0.33);
+
+    @media only screen and (min-width: $bp-tablet) {
+      width: 75%;
+    }
   }
 
   &__numbers-container {
-    // border: 2px solid red; 
+    
     width: 100%;
     gap: 0.5rem;
     gap: 0.8rem;
 
+    @media only screen and (min-width: $bp-tablet) {
+      display: flex;
+      flex-direction: row;
+      gap: 6rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
   }
 
   &__distance,
-  &__est-time
-  {
-    font-size: 20px;
+  &__est-time {
+    font-size: 18px;
     letter-spacing: 2.35px;
     text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    text-align: center;
+
+    @media only screen and (min-width: $bp-tablet) {
+      margin-bottom: 1rem;
+      
+    }
 
 
   }
@@ -75,5 +97,6 @@
     font-size: 30px;
     color: $color-white;
     margin-bottom: 0.2rem;
+    text-align: center;
   }
 }

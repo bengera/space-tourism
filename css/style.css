@@ -440,7 +440,8 @@ h5 {
   cursor: pointer;
   border: 0;
   color: #0b0d17;
-  background-color: #FFF; }
+  background-color: #FFF;
+  transition: .5s ease; }
   .btn-explore:hover {
     box-shadow: 0 0 0 30px rgba(151, 151, 151, 0.4); }
 
@@ -527,6 +528,9 @@ h5 {
     gap: 1.8rem;
     list-style: none;
     margin-bottom: 2rem; }
+    @media only screen and (min-width: 50em) {
+      .destination__list {
+        font-size: 20px; } }
   .destination__item {
     letter-spacing: 2.7px;
     cursor: pointer; }
@@ -540,20 +544,36 @@ h5 {
     text-align: center;
     padding-bottom: 2rem;
     border-bottom: 1px solid rgba(208, 214, 249, 0.33); }
+    @media only screen and (min-width: 50em) {
+      .destination__description {
+        width: 75%; } }
   .destination__numbers-container {
     width: 100%;
     gap: 0.5rem;
     gap: 0.8rem; }
+    @media only screen and (min-width: 50em) {
+      .destination__numbers-container {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        margin-top: 2rem;
+        text-align: center; } }
   .destination__distance, .destination__est-time {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2.35px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    text-align: center; }
+    @media only screen and (min-width: 50em) {
+      .destination__distance, .destination__est-time {
+        margin-bottom: 1rem; } }
   .destination__number, .destination__number-travel {
     font-family: "Bellefair", serif;
     text-transform: uppercase;
     font-size: 30px;
     color: #FFF;
-    margin-bottom: 0.2rem; }
+    margin-bottom: 0.2rem;
+    text-align: center; }
 
 .crew-container {
   background-image: url("../assets/crew/background-crew-mobile.jpg");
