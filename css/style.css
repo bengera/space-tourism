@@ -347,6 +347,23 @@ h5 {
   font-size: 18px;
   letter-spacing: 2.7px; }
 
+.h5-small-screen {
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: 2.7px; }
+  @media only screen and (min-width: 50em) {
+    .h5-small-screen {
+      display: none; } }
+
+.h5-large-screen {
+  display: none; }
+  @media only screen and (min-width: 50em) {
+    .h5-large-screen {
+      display: block;
+      margin-top: 3rem;
+      margin-left: 2rem; } }
+
 .mob-nav {
   color: #fff;
   text-decoration: none; }
@@ -599,6 +616,9 @@ h5 {
 .title {
   text-align: center;
   margin-top: 2rem; }
+  @media only screen and (min-width: 50em) {
+    .title {
+      margin-top: 3rem; } }
 
 .crew {
   height: 100%; }
@@ -623,6 +643,9 @@ h5 {
     font-size: 4.5vw;
     text-transform: uppercase;
     margin-bottom: 10px; }
+    @media only screen and (min-width: 50em) {
+      .crew__name {
+        margin: 0; } }
   .crew__bio {
     line-height: 25px;
     font-size: 18px;

@@ -104,6 +104,31 @@ h5 {
   letter-spacing: 2.7px;
 }
 
+.h5-small-screen {
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+  letter-spacing: 2.7px;
+
+  @media only screen and (min-width: $bp-tablet) {
+    display: none;
+  }
+}
+
+
+.h5-large-screen {
+  display: none;
+
+  @media only screen and (min-width: $bp-tablet) {
+    display: block;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  
+}
+
+
+
 .mob-nav {
   color: #fff;
   text-decoration: none;
