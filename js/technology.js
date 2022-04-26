@@ -45,7 +45,7 @@ btns.forEach((btn) => {
         })
         btn.classList.add("active");
         num = btn.innerText -1; // using number to get to array point 0
-        title.innerText = allData[num].name;
+        header.innerText = allData[num].name;
         description.innerText = allData[num].description;
         image.src = allData[num].images[img];
 

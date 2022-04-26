@@ -736,11 +736,17 @@ h5 {
   text-align: center;
   padding: 0 1rem;
   color: #D0D6F9; }
+  @media only screen and (min-width: 50em) {
+    .tech-description {
+      width: 65%; } }
 
 .tech-header {
   font-size: 4.5vw;
   text-transform: uppercase;
   margin-bottom: 10px; }
+  @media only screen and (min-width: 50em) {
+    .tech-header {
+      margin: 0; } }
 
 .tech-container {
   margin-top: 1rem;
