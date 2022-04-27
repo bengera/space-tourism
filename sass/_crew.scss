@@ -16,6 +16,10 @@
     background-image: url("../assets/crew/background-crew-tablet.jpg");
   }
 
+  @media only screen and (min-width: $bp-desktop) {
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
+  }
+
 }
 
 .section-crew {

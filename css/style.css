@@ -395,6 +395,9 @@ h5 {
   @media only screen and (min-width: 50em) {
     .container {
       background-image: url("../assets/home/background-home-tablet.jpg"); } }
+  @media only screen and (min-width: 62.5em) {
+    .container {
+      background-image: url("../assets/home/background-home-desktop.jpg"); } }
 
 .intro {
   display: flex;
@@ -410,6 +413,11 @@ h5 {
       margin-right: auto;
       max-width: 75%;
       margin-top: 5rem; } }
+  @media only screen and (min-width: 62.5em) {
+    .intro {
+      margin-left: 0%;
+      align-items: flex-start;
+      text-align: left; } }
   .intro__subtext-up, .intro__subtext-down {
     color: #d0d6f9; }
   .intro__subtext-up {
@@ -425,6 +433,18 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem 1rem; }
+  @media only screen and (min-width: 50em) {
+    .header-top-bar {
+      padding: 2rem 2rem; } }
+
+@media only screen and (min-width: 62.5em) {
+  .index-main {
+    display: flex;
+    align-items: center;
+    max-width: 1600px;
+    margin-left: 10rem;
+    max-width: 1400px;
+    margin-top: 10rem; } }
 
 .nav-toggle {
   background-color: transparent;
@@ -446,6 +466,11 @@ h5 {
 .cta-col {
   text-align: center;
   margin-top: 5rem; }
+  @media only screen and (min-width: 62.5em) {
+    .cta-col {
+      align-content: center;
+      margin: 0;
+      margin-right: 5rem; } }
 
 .btn-explore {
   width: 10rem;
@@ -459,6 +484,12 @@ h5 {
   color: #0b0d17;
   background-color: #FFF;
   transition: .5s ease; }
+  @media only screen and (min-width: 62.5em) {
+    .btn-explore {
+      width: 15rem;
+      height: 15rem;
+      font-size: 35px;
+      margin-top: 5rem; } }
   .btn-explore:hover {
     box-shadow: 0 0 0 30px rgba(151, 151, 151, 0.4); }
 
@@ -492,7 +523,7 @@ h5 {
 
 .navigation-desktop {
   display: none;
-  width: 30rem;
+  width: 35rem;
   height: 5rem;
   background-color: rgba(25, 28, 40, 0.98);
   position: absolute;
@@ -500,7 +531,11 @@ h5 {
   right: 0; }
   @media only screen and (min-width: 50em) {
     .navigation-desktop {
-      display: block; } }
+      display: block;
+      top: 1.3rem; } }
+  @media only screen and (min-width: 62.5em) {
+    .navigation-desktop {
+      width: 55rem; } }
   .navigation-desktop .list-desktop {
     color: #FFF;
     text-transform: uppercase;
@@ -512,6 +547,10 @@ h5 {
     gap: 3rem;
     list-style: none;
     align-items: center; }
+    @media only screen and (min-width: 62.5em) {
+      .navigation-desktop .list-desktop {
+        margin-left: 10rem;
+        justify-content: left; } }
     .navigation-desktop .list-desktop__item {
       letter-spacing: 0.07em;
       position: relative; }
@@ -534,6 +573,9 @@ h5 {
   @media only screen and (min-width: 50em) {
     .container-destinations {
       background-image: url("../assets/destination/background-destination-tablet.jpg"); } }
+  @media only screen and (min-width: 62.5em) {
+    .container-destinations {
+      background-image: url("../assets/destination/background-destination-desktop.jpg"); } }
 
 .destination {
   color: #d0d6f9;
@@ -609,6 +651,9 @@ h5 {
   @media only screen and (min-width: 50em) {
     .crew-container {
       background-image: url("../assets/crew/background-crew-tablet.jpg"); } }
+  @media only screen and (min-width: 62.5em) {
+    .crew-container {
+      background-image: url("../assets/crew/background-crew-desktop.jpg"); } }
 
 .section-crew {
   color: #d0d6f9; }
@@ -711,6 +756,9 @@ h5 {
   @media only screen and (min-width: 50em) {
     .container-technology {
       background-image: url("../assets/technology/background-technology-tablet.jpg"); } }
+  @media only screen and (min-width: 62.5em) {
+    .container-technology {
+      background-image: url("../assets/technology/background-technology-desktop.jpg"); } }
 
 .tech-image {
   width: 100%;

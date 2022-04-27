@@ -20,9 +20,15 @@
 }
 
 .cta-col {
-  // border: 2px solid red;
   text-align: center;
   margin-top: 5rem;
+
+  @media only screen and (min-width: $bp-desktop) {
+    align-content: center;
+    margin: 0;
+    margin-right: 5rem;
+  } 
+  
 }
 
 .btn-explore {
@@ -37,6 +43,13 @@
   color: $color-dark;
   background-color: $color-white;
   transition: .5s ease;
+
+  @media only screen and (min-width: $bp-desktop) {
+    width: 15rem;
+    height: 15rem;
+    font-size: 35px;
+    margin-top: 5rem;
+  }
 
   &:hover {
 
@@ -89,7 +102,7 @@
 // DESKTOP
 .navigation-desktop {
   display: none;
-  width: 30rem;
+  width: 35rem;
   height: 5rem;
   background-color: rgba(25, 28, 40, 0.98);
   position: absolute;
@@ -98,6 +111,12 @@
 
   @media only screen and (min-width: $bp-tablet) {
     display: block;
+    top: 1.3rem;
+  }
+
+  @media only screen and (min-width: $bp-desktop) {
+    width: 55rem;
+    
   }
 
   .list-desktop {
@@ -111,6 +130,11 @@
     gap: 3rem;
     list-style: none;
     align-items: center;
+
+    @media only screen and (min-width: $bp-desktop) {
+      margin-left: 10rem;
+      justify-content: left;
+    }
 
     &__item {
       
@@ -140,23 +164,5 @@
     
   }
 }
-
-
-
-// .mobile-header-container {
-//   display: block;
-
-//   @media only screen and (min-width: $bp-tablet) {
-//     display: none;
-//   }
-// }
-
-// .desktop-header-container {
-//   display: none;
-
-//   @media only screen and (min-width: $bp-tablet) {
-//     display: block;
-//   }
-// }
 
 

@@ -9,6 +9,10 @@
   @media only screen and (min-width: $bp-tablet) {
     background-image: url('../assets/home/background-home-tablet.jpg');
   }
+
+  @media only screen and (min-width: $bp-desktop) {
+    background-image: url('../assets/home/background-home-desktop.jpg');
+  }
 }
 
 .intro {
@@ -20,14 +24,19 @@
   margin: 2rem 1rem 0 1rem;
   text-align: center;
   gap: 1rem;
-  
 
-  @media only screen and (min-width: $bp-tablet) {
-    
+   @media only screen and (min-width: $bp-tablet) {
+
     margin-left: auto;
     margin-right: auto;
     max-width: 75%;
     margin-top: 5rem;
+  }
+
+  @media only screen and (min-width: $bp-desktop) {
+    margin-left: 0%;
+    align-items: flex-start;
+    text-align: left;
   }
 
   &__subtext-up,
@@ -53,5 +62,24 @@
   justify-content: space-between;
   padding: 1rem 1rem;
 
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 2rem 2rem;
+  }
+
+
+}
+
+.index-main {
+
+  @media only screen and (min-width: $bp-desktop) {
+    display: flex;
+    align-items: center;
+    max-width: 1600px;
+    margin-left: 10rem;
+    max-width: 1400px;
+    margin-top: 10rem;
+    
+
+  }
 
 }

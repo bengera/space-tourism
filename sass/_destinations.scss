@@ -8,6 +8,10 @@
   @media only screen and (min-width: $bp-tablet) {
     background-image: url("../assets/destination/background-destination-tablet.jpg");
   }
+
+  @media only screen and (min-width: $bp-desktop) {
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
+  }
 }
 
 .destination {
