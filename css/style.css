@@ -470,7 +470,8 @@ h5 {
     .cta-col {
       align-content: center;
       margin: 0;
-      margin-right: 5rem; } }
+      margin-right: 5rem;
+      margin-top: 15rem; } }
 
 .btn-explore {
   width: 10rem;
@@ -563,6 +564,18 @@ h5 {
       border-bottom: 2.5px solid #FFF;
       padding-bottom: 1.9rem;
       transition: all 0.2s linear; }
+
+.line {
+  display: none; }
+  @media only screen and (min-width: 62.5em) {
+    .line {
+      display: block;
+      height: 1px;
+      width: 50%;
+      top: 60px;
+      position: absolute;
+      left: 10%;
+      background-color: rgba(255, 255, 255, 0.295); } }
 
 .container-destinations {
   background-image: url("../assets/destination/background-destination-mobile.jpg");

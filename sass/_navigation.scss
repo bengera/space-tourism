@@ -27,8 +27,9 @@
     align-content: center;
     margin: 0;
     margin-right: 5rem;
-  } 
-  
+    margin-top: 15rem;
+  }
+
 }
 
 .btn-explore {
@@ -109,6 +110,36 @@
   top: 0;
   right: 0;
 
+  &:before {
+    
+    // @media only screen and (min-width: $bp-large-desktop) {
+    // content: "";
+    // display: block;
+    // height: 1px;
+    // width: 55%;
+    // top: 40px;
+    // position: absolute;
+    // left: -100px;
+    // background-color: rgba(255, 255, 255, 0.295);
+    
+   
+    // }
+
+    // @media only screen and (min-width: $bp-desktop) {
+    //   content: "";
+    //   display: block;
+    //   height: 1px;
+    //   width: 75%;
+    //   top: 40px;
+    //   position: absolute;
+    //   left: -200px;
+    //   background-color: rgba(255, 255, 255, 0.295);
+      
+     
+    //   }
+    
+  }
+
   @media only screen and (min-width: $bp-tablet) {
     display: block;
     top: 1.3rem;
@@ -116,7 +147,7 @@
 
   @media only screen and (min-width: $bp-desktop) {
     width: 55rem;
-    
+
   }
 
   .list-desktop {
@@ -137,21 +168,22 @@
     }
 
     &__item {
-      
+
       letter-spacing: 0.07em;
       position: relative;
-            
+
     }
 
-    
+
   }
 
   .desk-nav {
     text-decoration: none;
     color: $color-white;
     padding-bottom: 1.9rem;
-    border-bottom: 2px solid rgba(25, 28, 40, 0);;
-    
+    border-bottom: 2px solid rgba(25, 28, 40, 0);
+    ;
+
 
     &:hover {
       border-bottom: 2.5px solid $color-white;
@@ -160,9 +192,24 @@
     }
 
 
-    
-    
+
+
   }
 }
 
 
+.line {
+  display: none;
+
+  @media only screen and (min-width: $bp-desktop) {
+    display: block;
+    height: 1px;
+    width: 50%;
+    top: 60px;
+    position: absolute;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.295);
+  }
+   
+    
+}

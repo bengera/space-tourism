@@ -21,6 +21,7 @@ serif;
 $bp-tablet: 50em;
 $bp-desktop: 62.5em;
 
+
 // RESPONSIVE BREAKPOINTS 
 // $bp-largest: 75em; // 1200px
 // $bp-large: 62.5em; // 1000px
@@ -105,6 +106,8 @@ h5 {
   letter-spacing: 2.7px;
 }
 
+
+
 .h5-small-screen {
   display: block;
   line-height: 30px;
@@ -157,4 +160,5 @@ h5 {
   justify-content: center;
   align-items: center;
 }
+
 
