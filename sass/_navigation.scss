@@ -110,35 +110,6 @@
   top: 0;
   right: 0;
 
-  &:before {
-    
-    // @media only screen and (min-width: $bp-large-desktop) {
-    // content: "";
-    // display: block;
-    // height: 1px;
-    // width: 55%;
-    // top: 40px;
-    // position: absolute;
-    // left: -100px;
-    // background-color: rgba(255, 255, 255, 0.295);
-    
-   
-    // }
-
-    // @media only screen and (min-width: $bp-desktop) {
-    //   content: "";
-    //   display: block;
-    //   height: 1px;
-    //   width: 75%;
-    //   top: 40px;
-    //   position: absolute;
-    //   left: -200px;
-    //   background-color: rgba(255, 255, 255, 0.295);
-      
-     
-    //   }
-    
-  }
 
   @media only screen and (min-width: $bp-tablet) {
     display: block;
@@ -147,6 +118,7 @@
 
   @media only screen and (min-width: $bp-desktop) {
     width: 55rem;
+    z-index: 20;
 
   }
 

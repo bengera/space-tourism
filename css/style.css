@@ -341,6 +341,9 @@ h1 {
 
 h2 {
   font-size: 70px; }
+  @media only screen and (min-width: 62.5em) {
+    h2 {
+      grid-column: 2/2; } }
 
 h5 {
   line-height: 30px;
@@ -373,6 +376,12 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media only screen and (min-width: 62.5em) {
+    .flex-col {
+      display: grid;
+      grid-template-rows: repeat(4, min-content);
+      justify-items: left;
+      border: 2px solid red; } }
 
 .flex-col-2 {
   display: flex;
@@ -536,7 +545,8 @@ h5 {
       top: 1.3rem; } }
   @media only screen and (min-width: 62.5em) {
     .navigation-desktop {
-      width: 55rem; } }
+      width: 55rem;
+      z-index: 20; } }
   .navigation-desktop .list-desktop {
     color: #FFF;
     text-transform: uppercase;
@@ -594,9 +604,18 @@ h5 {
   color: #d0d6f9;
   padding: 2rem;
   gap: 1rem; }
+  @media only screen and (min-width: 62.5em) {
+    .destination {
+      grid-column-gap: 10rem;
+      grid-row-gap: 2rem; } }
   .destination__photo {
     width: 50%;
     margin: 1rem 0; }
+    @media only screen and (min-width: 62.5em) {
+      .destination__photo {
+        width: 100%;
+        grid-row: 1/ -1;
+        margin: 2rem 5rem; } }
   .destination__list {
     color: #d0d6f9;
     text-transform: uppercase;
@@ -606,6 +625,11 @@ h5 {
     @media only screen and (min-width: 50em) {
       .destination__list {
         font-size: 20px; } }
+    @media only screen and (min-width: 62.5em) {
+      .destination__list {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        margin-bottom: 0; } }
   .destination__item {
     letter-spacing: 2.7px;
     cursor: pointer; }
@@ -622,6 +646,10 @@ h5 {
     @media only screen and (min-width: 50em) {
       .destination__description {
         width: 75%; } }
+    @media only screen and (min-width: 62.5em) {
+      .destination__description {
+        grid-column: 2/2;
+        text-align: left; } }
   .destination__numbers-container {
     width: 100%;
     gap: 0.5rem;
@@ -633,6 +661,11 @@ h5 {
         gap: 6rem;
         margin-top: 2rem;
         text-align: center; } }
+    @media only screen and (min-width: 62.5em) {
+      .destination__numbers-container {
+        grid-column: 2/2;
+        margin-top: 0;
+        width: auto; } }
   .destination__distance, .destination__est-time {
     font-size: 18px;
     letter-spacing: 2.35px;
