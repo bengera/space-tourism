@@ -311,12 +311,6 @@ template {
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow-x: hidden;
-  height: 100%; }
-
-html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
   overflow-x: hidden; }
 
 body {
@@ -343,7 +337,8 @@ h2 {
   font-size: 70px; }
   @media only screen and (min-width: 62.5em) {
     h2 {
-      grid-column: 2/2; } }
+      grid-column: 2/2;
+      font-size: 90px; } }
 
 h5 {
   line-height: 30px;
@@ -366,6 +361,9 @@ h5 {
       display: block;
       margin-top: 3rem;
       margin-left: 2rem; } }
+  @media only screen and (min-width: 62.5em) {
+    .h5-large-screen {
+      margin-left: 10rem; } }
 
 .mob-nav {
   color: #fff;
@@ -376,12 +374,6 @@ h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  @media only screen and (min-width: 62.5em) {
-    .flex-col {
-      display: grid;
-      grid-template-rows: repeat(4, min-content);
-      justify-items: left;
-      border: 2px solid red; } }
 
 .flex-col-2 {
   display: flex;
@@ -606,8 +598,14 @@ h5 {
   gap: 1rem; }
   @media only screen and (min-width: 62.5em) {
     .destination {
-      grid-column-gap: 10rem;
-      grid-row-gap: 2rem; } }
+      grid-column-gap: 15rem;
+      grid-row-gap: 0.5rem;
+      max-width: 1250px;
+      margin: 5rem auto;
+      display: grid;
+      grid-template-rows: repeat(4, min-content);
+      justify-items: left;
+      align-items: left; } }
   .destination__photo {
     width: 50%;
     margin: 1rem 0; }
