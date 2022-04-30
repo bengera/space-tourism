@@ -130,8 +130,9 @@ h5 {
   }
 
   @media only screen and (min-width: $bp-desktop) {
-    margin-left: 10rem;
+    margin-left: 0;
     margin-top: 0;
+    font-size: 24px;
   }
   
 }
