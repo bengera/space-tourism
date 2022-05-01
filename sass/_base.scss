@@ -131,8 +131,28 @@ h5 {
 
   @media only screen and (min-width: $bp-desktop) {
     margin-left: 0;
+    // margin-top: 0;
+    font-size: 24px;
+    margin-left: calc(8vw + 100px);
+    margin-top: 2rem;
+  }
+  
+}
+
+.h5-large-screen-crew {
+  display: none;
+
+  @media only screen and (min-width: $bp-tablet) {
+    display: block;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+
+  @media only screen and (min-width: $bp-desktop) {
+    margin-left: 0;
     margin-top: 0;
     font-size: 24px;
+    
   }
   
 }

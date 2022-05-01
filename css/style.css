@@ -364,6 +364,20 @@ h5 {
   @media only screen and (min-width: 62.5em) {
     .h5-large-screen {
       margin-left: 0;
+      font-size: 24px;
+      margin-left: calc(8vw + 100px);
+      margin-top: 2rem; } }
+
+.h5-large-screen-crew {
+  display: none; }
+  @media only screen and (min-width: 50em) {
+    .h5-large-screen-crew {
+      display: block;
+      margin-top: 3rem;
+      margin-left: 2rem; } }
+  @media only screen and (min-width: 62.5em) {
+    .h5-large-screen-crew {
+      margin-left: 0;
       margin-top: 0;
       font-size: 24px; } }
 
@@ -821,6 +835,10 @@ h5 {
 .buttons {
   display: flex;
   gap: 20px; }
+  @media only screen and (min-width: 62.5em) {
+    .buttons {
+      grid-row: 1/1;
+      flex-direction: column; } }
 
 .num {
   width: 50px;
@@ -832,6 +850,10 @@ h5 {
   justify-content: center;
   align-items: center;
   cursor: pointer; }
+  @media only screen and (min-width: 62.5em) {
+    .num {
+      width: 70px;
+      height: 70px; } }
 
 .num.active {
   background-color: #fff;
@@ -853,19 +875,34 @@ h5 {
 .tech-image {
   width: 100%;
   margin: 1rem 0 2rem; }
+  @media only screen and (min-width: 62.5em) {
+    .tech-image {
+      width: auto; } }
 
-.content {
+.tech-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 1rem;
   gap: 1rem; }
+  @media only screen and (min-width: 62.5em) {
+    .tech-content {
+      display: grid;
+      grid-template-columns: 5rem 1fr 1fr;
+      padding: 5rem;
+      gap: 3rem;
+      max-width: 1900px;
+      margin: 0 auto;
+      margin-top: 6rem; } }
 
 .tech-title {
   font-size: 15px;
   letter-spacing: 2.35px;
   text-transform: uppercase;
   color: #D0D6F9; }
+  @media only screen and (min-width: 62.5em) {
+    .tech-title {
+      grid-column: 3/3; } }
 
 .tech-description {
   line-height: 25px;
@@ -877,6 +914,10 @@ h5 {
   @media only screen and (min-width: 50em) {
     .tech-description {
       width: 65%; } }
+  @media only screen and (min-width: 62.5em) {
+    .tech-description {
+      width: auto;
+      text-align: left; } }
 
 .tech-header {
   font-size: 4.5vw;
@@ -885,7 +926,20 @@ h5 {
   @media only screen and (min-width: 50em) {
     .tech-header {
       margin: 0; } }
+  @media only screen and (min-width: 62.5em) {
+    .tech-header {
+      font-size: 56px;
+      margin-right: 7rem; } }
 
 .tech-container {
   margin-top: 1rem;
   gap: 1rem; }
+  @media only screen and (min-width: 62.5em) {
+    .tech-container {
+      grid-row: 1/1;
+      grid-column: 2/2;
+      max-width: 600px; } }
+
+@media only screen and (min-width: 62.5em) {
+  .tech-container.flex-col-2 {
+    align-items: left; } }

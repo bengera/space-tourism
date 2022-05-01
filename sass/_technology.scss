@@ -1,87 +1,144 @@
 .buttons {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
+
+  @media only screen and (min-width: $bp-desktop) {
+    grid-row: 1/1;
+    flex-direction: column;
+  }
 }
 
 .num {
-    width: 50px;
-    height: 50px;
-    border: 1px solid #d0d6f9;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    
+  width: 50px;
+  height: 50px;
+  border: 1px solid #d0d6f9;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  @media only screen and (min-width: $bp-desktop) {
+    width: 70px;
+    height: 70px;
+  }
+
+
+
 }
 
 .num.active {
-    background-color: #fff;
-    color: $color-dark;
+  background-color: #fff;
+  color: $color-dark;
 }
 
 .container-technology {
-    background-image: url("../assets/technology/background-technology-mobile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
+  background-image: url("../assets/technology/background-technology-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 
-    @media only screen and (min-width: $bp-tablet) {
-      background-image: url("../assets/technology/background-technology-tablet.jpg");
-    }
-
-    @media only screen and (min-width: $bp-desktop) {
-      background-image: url('../assets/technology/background-technology-desktop.jpg');
-    }
-   
-  }
-  
-  .tech-image {
-    width: 100%;
-    margin: 1rem 0 2rem;
+  @media only screen and (min-width: $bp-tablet) {
+    background-image: url("../assets/technology/background-technology-tablet.jpg");
   }
 
-  .content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 1rem;
-      gap: 1rem;
+  @media only screen and (min-width: $bp-desktop) {
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
   }
 
-  .tech-title {
-    font-size: 15px;
-    letter-spacing: 2.35px;
-    text-transform: uppercase;
-    color: $color-purple;
+}
+
+.tech-image {
+  width: 100%;
+  margin: 1rem 0 2rem;
+
+  @media only screen and (min-width: $bp-desktop) {
+    width: auto;
+  }
+}
+
+.tech-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+
+  @media only screen and (min-width: $bp-desktop) {
+    display: grid;
+    grid-template-columns: 5rem 1fr 1fr;
+    padding: 5rem;
+    gap: 3rem;
+    max-width: 1900px;
+    margin: 0 auto;
+    margin-top: 6rem;
+    // margin-left:10rem;
+    
+    
+    
+  }
+}
+
+.tech-title {
+  font-size: 15px;
+  letter-spacing: 2.35px;
+  text-transform: uppercase;
+  color: $color-purple;
+
+  @media only screen and (min-width: $bp-desktop) {
+    grid-column: 3/3;
+  }
+}
+
+.tech-description {
+  line-height: 25px;
+  font-size: 18px;
+  width: 85%;
+  text-align: center;
+  padding: 0 1rem;
+  color: $color-purple;
+
+  @media only screen and (min-width: $bp-tablet) {
+    width: 65%;
   }
 
-  .tech-description {
-    line-height: 25px;
-    font-size: 18px;
-    width: 85%;
-    text-align: center;
-    padding: 0 1rem;
-    color: $color-purple;
-
-    @media only screen and (min-width: $bp-tablet) {
-      width: 65%;
-    }
+  @media only screen and (min-width: $bp-desktop) {
+    width: auto;
+    text-align: left;
   }
-  
-  .tech-header {
-    font-size: 4.5vw;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+}
 
-    @media only screen and (min-width: $bp-tablet) {
-      margin: 0;
-    }
+.tech-header {
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  @media only screen and (min-width: $bp-tablet) {
+    margin: 0;
   }
 
-  .tech-container {
-      margin-top:1rem;
-      gap: 1rem;
+  @media only screen and (min-width: $bp-desktop) {
+    font-size: 56px;
+    margin-right: 7rem;
   }
+}
+
+.tech-container {
+  margin-top: 1rem;
+  gap: 1rem;
+
+  @media only screen and (min-width: $bp-desktop) {
+    grid-row: 1/1;
+    grid-column: 2/2;
+    max-width: 600px;
+    
+  }
+}
+
+.tech-container.flex-col-2 {
+  @media only screen and (min-width: $bp-desktop) {
+    align-items: left;
+  }
+}
