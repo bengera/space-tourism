@@ -53,6 +53,12 @@
     line-height: 30px;
     font-size: 18px;
     max-width: 25rem;
+
+    @media only screen and (min-width: $bp-desktop) {
+      line-height: 32px;
+    }
+
+    
   }
 }
 

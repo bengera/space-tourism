@@ -50,6 +50,8 @@
     height: 15rem;
     font-size: 35px;
     margin-top: 5rem;
+
+    
   }
 
   &:hover {
@@ -119,6 +121,12 @@
   @media only screen and (min-width: $bp-desktop) {
     width: 55rem;
     z-index: 20;
+
+    //edit for index 
+    // position: static;
+    // // border: 2px solid red;
+    // margin-left: auto;
+    // margin-top: -93px;
 
   }
 
